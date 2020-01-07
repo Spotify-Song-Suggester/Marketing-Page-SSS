@@ -180,13 +180,13 @@ button {
   border: none;
 }
 .header {
-  padding: 3% 0;
+  padding: 5% 0;
   height: 754px;
   background: url(../img/AdobeStock_188698373.jpg) no-repeat 80% center;
   background-size: cover;
 }
 .header h1 {
-  padding-left: 7%;
+  padding-left: 10%;
   font-family: 'Cortado', sans-serif;
   font-size: 720%;
   font-weight: normal;
@@ -214,14 +214,30 @@ button {
 }
 .header .subtitle {
   background: radial-gradient(196.56% 824.49% at 66.75% -23.66%, rgba(14, 11, 32, 0.36) 70.31%, rgba(239, 1, 159, 0.0825) 85.42%);
-  margin: 2% 0;
-  padding-left: 7%;
+  margin: 4% 0;
+  padding-left: 10%;
   line-height: 1.2;
 }
 @media (max-width: 500px) {
   .header .subtitle {
     margin: 14% 0;
     padding: 2% 8%;
+  }
+}
+.header #first-sub {
+  width: 41%;
+}
+@media (max-width: 500px) {
+  .header #first-sub {
+    width: 100%;
+  }
+}
+.header #second-sub {
+  width: 56%;
+}
+@media (max-width: 500px) {
+  .header #second-sub {
+    width: 100%;
   }
 }
 .header .button-container {
@@ -234,19 +250,24 @@ button {
   }
 }
 .header button {
-  margin-top: 20%;
-  margin-left: 64%;
+  margin-top: 8%;
+  margin-left: 50%;
   text-transform: uppercase;
   letter-spacing: 3.6px;
-  padding: 2% 4%;
+  padding: 3% 6%;
   border-radius: 50px;
   background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 @media (max-width: 500px) {
   .header button {
-    padding: 4% 8%;
+    padding: 4% 7.99%;
     margin: 0;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    height: 640px;
   }
 }
 .about {
@@ -271,6 +292,8 @@ button {
 @media (max-width: 800px) {
   .about div {
     width: 98%;
+    margin-bottom: 7%;
+    padding: 3% 9%;
   }
 }
 .about div h3 {
