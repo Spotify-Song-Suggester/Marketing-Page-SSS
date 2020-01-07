@@ -182,11 +182,8 @@ button {
 .header {
   padding: 3% 0;
   height: 754px;
-  background-color: linear-gradient(172.46deg, rgba(14, 11, 32, 0.86) 14.75%, rgba(14, 11, 32, 0) 25.05%), linear-gradient(348.72deg, rgba(239, 1, 159, 0) 14.02%, rgba(14, 11, 32, 0.7) 74.08%);
-  background-repeat: no-repeat;
-  background-image: url(../img/AdobeStock_188698373.jpg);
-  background-position: center;
-  background-size: 100% auto;
+  background: url(../img/AdobeStock_188698373.jpg) no-repeat 80% center;
+  background-size: cover;
 }
 .header h1 {
   padding-left: 7%;
@@ -196,30 +193,85 @@ button {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: #EF019F;
 }
-.header div {
+@media (max-width: 500px) {
+  .header h1 {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .header h2 {
+    font-size: 360%;
+  }
+}
+.header h3 {
+  font-size: 360%;
+}
+@media (max-width: 500px) {
+  .header h3 {
+    font-size: 240%;
+  }
+}
+.header .subtitle {
   background: radial-gradient(196.56% 824.49% at 66.75% -23.66%, rgba(14, 11, 32, 0.36) 70.31%, rgba(239, 1, 159, 0.0825) 85.42%);
   margin: 2% 0;
   padding-left: 7%;
+  line-height: 1.2;
+}
+@media (max-width: 500px) {
+  .header .subtitle {
+    margin: 14% 0;
+    padding: 2% 8%;
+  }
+}
+.header .button-container {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 500px) {
+  .header .button-container {
+    padding-top: 17%;
+  }
 }
 .header button {
+  margin-top: 20%;
+  margin-left: 64%;
   text-transform: uppercase;
   letter-spacing: 3.6px;
-  padding: 1% 2%;
+  padding: 2% 4%;
   border-radius: 50px;
   background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media (max-width: 500px) {
+  .header button {
+    padding: 4% 8%;
+    margin: 0;
+  }
+}
 .about {
   padding: 10%;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .about div {
-  flex-wrap: wrap;
   text-align: center;
+  width: 23%;
   margin: 1%;
-  width: 40%;
-  padding: 1%;
+  padding: 1% 2%;
   border: 2px solid white;
+}
+@media (max-width: 1280px) {
+  .about div {
+    width: 48%;
+    padding: 1% 9%;
+  }
+}
+@media (max-width: 800px) {
+  .about div {
+    width: 98%;
+  }
 }
 .about div h3 {
   margin-bottom: 5%;

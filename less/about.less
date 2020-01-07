@@ -1,13 +1,23 @@
 .about{
     padding: 10%;
     display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
     div{
-        flex-wrap:wrap;
         text-align:center;
+        width: 23%;
         margin: 1%;
-        width: 40%;
-        padding: 1%;
+        padding: 1% 2%;
         border:2px solid @whammy-white;
+
+        @media(max-width:1280px){
+            width:48%;
+            padding: 1% 9%;
+        }
+
+        @media(max-width:800px){
+            width: 98%;
+        }
 
         h3{
             margin-bottom: 5%;
