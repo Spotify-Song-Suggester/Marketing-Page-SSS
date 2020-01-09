@@ -1,6 +1,6 @@
 .container{
     max-width: 1280px;
-    width:80%;
+    width:100%;
     margin: 0 auto;
 
     .about-button-container{
@@ -28,6 +28,10 @@
         background:radial-gradient( rgba(239, 1, 159, 0.75) 61.46%, rgba(239, 1, 159, 0) 97.92%);
         -webkit-background-clip: text;
         -webkit-text-fill-color:transparent;
+
+        @media(max-width:500px){
+            font-size:800%;
+        }
     }
 
     h2{
@@ -46,7 +50,7 @@
         //background: linear-gradient(180deg, #FFFFFF 40%, @plush-pink 60%);
         text-align:center;
         margin: 2%;
-        min-width:170px;
+        min-width:240px;
         width:20%;
         border-radius: 20px;
         background://linear-gradient(to top, @plush-pink 75%, @cool-blue 25%), 
@@ -71,6 +75,11 @@
             border: 3px solid white;
             background:white;
             border-radius: 50%;
+        }
+
+        @media(max-width:500px){
+            width: 75%;
+            margin: 4%;
         }
     }
 
