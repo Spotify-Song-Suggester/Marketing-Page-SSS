@@ -1,0 +1,421 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  color: white;
+}
+body {
+  background-color: #171330;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 600%;
+  font-weight: normal;
+}
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 480%;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 240%;
+  font-weight: normal;
+}
+h4 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 400%;
+  font-weight: normal;
+}
+h5 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 380%;
+  font-weight: normal;
+}
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 180%;
+  font-weight: normal;
+  line-height: 1.2;
+}
+footer p {
+  font-family: 'Muli', sans-serif;
+  font-size: 260%;
+  font-weight: bold;
+}
+button {
+  font-family: 'Muli', sans-serif;
+  font-size: 240%;
+  font-weight: bold;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+  padding: 2% 4%;
+  border-radius: 50px;
+  background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  opacity: 1;
+}
+.header {
+  padding: 5% 0;
+  height: 900px;
+  background: linear-gradient(172.46deg, rgba(14, 11, 32, 0.86) 14.75%, rgba(14, 11, 32, 0) 25.05%), url(../img/AdobeStock_188698373.jpg) no-repeat 80% 30%;
+  background-size: cover;
+}
+.header h1 {
+  text-align: center;
+  font-family: 'Cortado', sans-serif;
+  font-size: 1080%;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(rgba(239, 1, 159, 0.75) 61.46%, rgba(239, 1, 159, 0) 97.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 1280px) {
+  .header h1 {
+    padding-left: 10%;
+    text-align: left;
+    font-size: 720%;
+  }
+}
+@media (max-width: 500px) {
+  .header h1 {
+    padding: 0;
+    text-align: center;
+  }
+}
+.header h2 {
+  font-size: 600%;
+}
+@media (max-width: 1280) {
+  .header h2 {
+    font-size: 480%;
+  }
+}
+@media (max-width: 500px) {
+  .header h2 {
+    font-size: 360%;
+  }
+}
+.header h3 {
+  font-size: 480%;
+}
+@media (max-width: 1280px) {
+  .header h3 {
+    font-size: 360%;
+  }
+}
+@media (max-width: 500px) {
+  .header h3 {
+    font-size: 240%;
+  }
+}
+.header .subtitle {
+  background: radial-gradient(196.56% 824.49% at 66.75% -23.66%, rgba(14, 11, 32, 0.36) 70.31%, rgba(239, 1, 159, 0.0825) 85.42%);
+  margin: 4% 0;
+  text-align: center;
+  line-height: 1.2;
+}
+@media (max-width: 500px) {
+  .header .subtitle {
+    text-align: left;
+    margin: 14% 0;
+    padding: 2% 10%;
+  }
+}
+.header #first-sub {
+  width: 41%;
+}
+@media (max-width: 1280px) {
+  .header #first-sub {
+    width: 41%;
+  }
+}
+@media (max-width: 500px) {
+  .header #first-sub {
+    width: 100%;
+  }
+}
+.header #second-sub {
+  width: 41%;
+}
+@media (max-width: 1280px) {
+  .header #second-sub {
+    width: 56%;
+  }
+}
+@media (max-width: 500px) {
+  .header #second-sub {
+    width: 100%;
+  }
+}
+.header .button-container a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+@media (max-width: 1280px) {
+  .header .button-container a button {
+    margin-top: 6%;
+    margin-left: 50%;
+    padding: 2.5% 5%;
+  }
+}
+@media (max-width: 500px) {
+  .header .button-container a button {
+    padding: 4% 7.99%;
+    margin: 0;
+  }
+}
+@media (max-width: 500px) {
+  .header .button-container {
+    padding-top: 17%;
+  }
+}
+@media (max-width: 1280px) {
+  .header {
+    height: 754px;
+  }
+}
+@media (max-width: 400px) {
+  .header {
+    height: 640px;
+  }
+}
+.about {
+  padding: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about .about-box {
+  text-align: center;
+  width: 23%;
+  margin: 1%;
+  padding: 1% 2%;
+  border: 2px solid white;
+}
+@media (max-width: 1280px) {
+  .about .about-box {
+    width: 48%;
+    padding: 1% 9%;
+  }
+}
+@media (max-width: 800px) {
+  .about .about-box {
+    width: 98%;
+    margin-bottom: 7%;
+    padding: 3% 9%;
+  }
+}
+.about .about-box h3 {
+  margin-bottom: 5%;
+}
+.about .about-team-button {
+  margin: 5% auto;
+}
+.about .about-team-button a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.container {
+  max-width: 1280px;
+  width: 80%;
+  margin: 0 auto;
+}
+.container .about-button-container {
+  text-align: center;
+  margin: 3% auto;
+  margin-bottom: 15%;
+}
+.container .about-button-container button {
+  margin: 0 auto;
+}
+.team-info-header h1 {
+  margin: 4% auto;
+  text-align: center;
+  font-family: 'Cortado', sans-serif;
+  font-size: 1080%;
+  font-weight: normal;
+  line-height: 1.3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: radial-gradient(rgba(239, 1, 159, 0.75) 61.46%, rgba(239, 1, 159, 0) 97.92%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.team-info-header h2 {
+  margin: 6% auto;
+  text-align: center;
+}
+.team-info-profiles {
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.team-info-profiles .profile {
+  text-align: center;
+  margin: 2%;
+  min-width: 170px;
+  width: 20%;
+  border-radius: 20px;
+  background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
+  padding-bottom: 5%;
+  padding-top: 2%;
+}
+.team-info-profiles .profile h3 {
+  font-family: 'Muli', sans-serif;
+  font-size: 360%;
+  font-weight: normal;
+  padding: 5% 0;
+}
+.team-info-profiles .profile h4 {
+  font-family: 'Muli', sans-serif;
+  font-size: 300%;
+  font-weight: normal;
+  padding: 5% 0;
+}
+.team-info-profiles .profile img {
+  width: 80%;
+  text-align: center;
+  height: auto;
+  border: 3px solid white;
+  background: white;
+  border-radius: 50%;
+}
+.team-info-profiles hr {
+  width: 90%;
+}
