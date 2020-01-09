@@ -352,10 +352,13 @@ button {
   width: 80%;
   margin: 0 auto;
 }
-.container .button-container {
+.container .about-button-container {
   text-align: center;
-  margin-top: 3%;
+  margin: 3% auto;
   margin-bottom: 15%;
+}
+.container .about-button-container button {
+  margin: 0 auto;
 }
 .team-info-header h1 {
   margin: 4% auto;
@@ -382,20 +385,24 @@ button {
 .team-info-profiles .profile {
   text-align: center;
   margin: 2%;
+  min-width: 170px;
   width: 20%;
   border-radius: 20px;
-  background: linear-gradient(to top, #EF019F 75%, #171330 25%);
-  padding-bottom: 10%;
+  background: radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
+  padding-bottom: 5%;
+  padding-top: 2%;
 }
 .team-info-profiles .profile h3 {
   font-family: 'Muli', sans-serif;
   font-size: 360%;
   font-weight: normal;
+  padding: 5% 0;
 }
 .team-info-profiles .profile h4 {
   font-family: 'Muli', sans-serif;
   font-size: 300%;
   font-weight: normal;
+  padding: 5% 0;
 }
 .team-info-profiles .profile img {
   width: 80%;
@@ -404,4 +411,7 @@ button {
   border: 3px solid white;
   background: white;
   border-radius: 50%;
+}
+.team-info-profiles hr {
+  width: 90%;
 }

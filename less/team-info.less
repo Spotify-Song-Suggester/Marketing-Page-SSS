@@ -3,10 +3,14 @@
     width:80%;
     margin: 0 auto;
 
-    .button-container{
+    .about-button-container{
         text-align:center;
-        margin-top: 3%;
+        margin: 3% auto;
         margin-bottom: 15%;
+
+        button{
+            margin:0 auto;
+        }
     }
 }
 
@@ -42,17 +46,22 @@
         //background: linear-gradient(180deg, #FFFFFF 40%, @plush-pink 60%);
         text-align:center;
         margin: 2%;
+        min-width:170px;
         width:20%;
         border-radius: 20px;
-        background:linear-gradient(to top, @plush-pink 75%, @cool-blue 25%);
-        padding-bottom: 10%;
+        background://linear-gradient(to top, @plush-pink 75%, @cool-blue 25%), 
+        radial-gradient(140.21% 237.58% at 78.43% 139.84%, rgba(239, 1, 159, 0.75) 0%, rgba(239, 1, 159, 0) 100%);
+        padding-bottom: 5%;
+        padding-top: 2%;
 
         h3{
             .font(@muli, 360%);
+            padding: 5% 0;
         }
 
         h4{
             .font(@muli, 300%);
+            padding: 5% 0;
         }
 
         img{
@@ -65,5 +74,8 @@
         }
     }
 
+    hr{
+        width: 90%;
+    }
 }
 
